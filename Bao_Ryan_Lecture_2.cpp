@@ -39,9 +39,31 @@ int main()                                                //initialize main
 
     char char_1 = 'T';
     char char_2 = 'V';
-    cout << (char_1 <char_2) << endl;
-    cout << "T is less than V" << endl;
+    cout << "T is less than V = " << (char_1 < char_2) << endl;
 
 return 0;
 
 }
+
+/*
+int: 7
+float: 2.99
+Double: 3.98
+Char: T
+Bool: 0
+String: C++ is a code
+ 
+100 inch(es) = 8feet (foot) and 4 inch(es)
+ 
+2 + 3.5 = 5.5
+6 / 4 + 3.9 = 4.9
+5.4*2-(13.6 + 18/2) = -11.8
+ 
+1
+T is less than V
+*/
+
+
+/*
+
+*/
