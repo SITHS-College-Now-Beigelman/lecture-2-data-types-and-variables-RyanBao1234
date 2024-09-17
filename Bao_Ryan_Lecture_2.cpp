@@ -23,20 +23,24 @@ int main()                                                //initialize main
     cout << ' ' << endl;
 
     int inches;
-    inches = 100;                 //initialize and store variable
+    inches = 100;                                       //initialize and store variable
     cout << inches << " inch(es) = ";                   //perform operations using variable
     cout << inches / 12 << "feet (foot) and ";
     cout << inches % 12 << " inch(es)" << endl;
     cout << ' ' << endl;
 
-    cout << 2 + 3.5 << endl;                       //perform operations, variables are not needed
-    cout << 6 / 4 + 3.9 << endl;
-    cout << 5.4*2-(13.6 + 18/2);
+    string math_1 = "2 + 3.5 = 5.5";
+    string math_2 = "6 / 4 + 3.9 = 4.9";
+    string math_3 = "5.4*2-(13.6 + 18/2) = -11.8";
+    cout << math_1 << endl;                           //perform operations, variables are not needed
+    cout << math_2 << endl;
+    cout << math_3 << endl;
     cout << ' ' << endl;
 
     char char_1 = 'T';
     char char_2 = 'V';
-    cout << int(char_1) << ' < ' << int(char_2) << endl;
+    cout << (char_1 <char_2) << endl;
+    cout << "T is less than V" << endl;
 
 return 0;
 
